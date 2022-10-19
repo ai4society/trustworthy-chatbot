@@ -19,6 +19,7 @@ exclude = set(string.punctuation)
 lemma = WordNetLemmatizer()
 
 def extract_intent(text):
+    print(text)
     stop_free = ' '.join([word for word in text.lower().split() if word not in stop])
     punc_free = ''.join(ch for ch in stop_free if ch not in exclude)
     normalized = ' '.join([lemma.lemmatize(word) for word in punc_free.split()])

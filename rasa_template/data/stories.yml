@@ -9,6 +9,7 @@ stories:
   - intent: mood_great
   - action: utter_happy
   - action: action_save_conversation
+  - action: action_session_id
 
 - story: sad path 1
   steps:
@@ -20,6 +21,7 @@ stories:
   - intent: affirm
   - action: utter_happy
   - action: action_save_conversation
+  - action: action_session_id
 
 - story: sad path 2
   steps:
@@ -31,3 +33,4 @@ stories:
   - intent: deny
   - action: utter_goodbye
   - action: action_save_conversation
+  - action: action_session_id

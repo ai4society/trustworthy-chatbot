@@ -31,6 +31,9 @@ responses:
 
   utter_out_of_scope:
   - text: Sorry, I can't handle that request. Please rephrase the question
+ 
+actions:
+  - action_save_conversation
 
 session_config:
   session_expiration_time: 60

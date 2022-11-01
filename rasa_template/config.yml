@@ -25,6 +25,9 @@ pipeline:
 #   - name: ResponseSelector
 #     epochs: 100
 #     constrain_similarities: true
+#   - name: FallbackClassifier
+#     threshold: 0.3
+#     ambiguity_threshold: 0.1
   # - name: FallbackClassifier
   #   threshold: 0.7
 
@@ -43,3 +46,6 @@ policies:
 #     max_history: 5
 #     epochs: 100
 #     constrain_similarities: true
+
+action_endpoint:
+  url: "http://localhost:5005/webhook"

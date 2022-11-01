@@ -1,51 +1,117 @@
 Question,Answer
-What is South Carolina's new voting system and how does it work? ,"South Carolina has been using the ExpressVote ballot-marking system in all elections since October 1, 2019. After checking in at your polling place, you will be given a blank ballot and be directed to an ExpressVote. You insert the ballot into the ExpressVote to begin making your selections on a touchscreen. Making selections on the touchscreen is very similar to making selections on the old voting system. After making your selections, you will do a final review then print your ballot. To cast your vote, you will be directed to a ballot scanner. Review the selections on your printed ballot and insert it into the scanner. The scanner tabulates the votes on your ballot and feeds the ballot into a locked ballot box. The paper ballots are then used to verify and audit election results. Click here for more on South Carolinas Voting System."
-What are the benefits of a ballot-marking device?,"Ballot marking devices (BMDs) offer many of the benefits of touchscreen voting machines while also providing the assurance and security of a paper ballot.
+It is past the voter registration deadline and I havent updated my registration.  Can I still vote?,"If you
 
-BMDs are fully accessible for people with disabilities allowing every South Carolinian to vote independently using the same equipment. Hand-marked paper systems are not accessible and require voters with disabilities to vote with assistance or on a device different from other voters.
-BMDs prevent voters from overvoting (selecting more candidates than allowed). Hand-marked paper ballots can be overvoted. Election officials are unable to determine voter intent in an overvoted office leading to the voters vote not being counted.
-BMDs prevent stray marks. Unintended marks on a paper ballot can cause overvotes or votes to be cast differently than intended.
-BMDs prevent improper marks. Voters do not always mark paper ballots by filling in the oval as instructed. It is common for voters to circle a candidates name, make a check mark, or even cross through a name. Improper marks require election officials to try to interpret these marks to determine voter intent. Ultimately, marking the ballot differently than instructed can cause a voters vote to not be counted.
-BMDs reminds voters if they have undervoted (missed an office or voted for fewer candidates than allowed).
-BMDs offer the easiest transition for voters. South Carolinians have been voting on touchscreens for the past 15 years. Voting on the ExpressVote will offer a familiar experience with the added assurance of verifying their vote on a paper ballot."
-Are South Carolina's elections secure? ,"Our Top Priority
-The mission of the S.C. State Election Commission (SEC) is to ensure every eligible citizen has the opportunity to register to vote, participate in fair and impartial elections, and have the assurance that their votes will count.  Fundamental to this mission is ensuring the security and integrity of elections in South Carolina.  Elections face numerous threats from a wide variety of actors including nation states, individuals and organizations  all with various motives.  We recognize these threats, and we want voters to know we have made it our top priority to take all reasonable measures to improve and protect the security and resilience of our states election infrastructure.
-Our Security Team
-To address these threats against critical infrastructure, the SEC has developed an unprecedented security partnership of state, federal and private cybersecurity professionals as well as state and federal law enforcement and intelligence agencies.
-The U.S. Department of Homeland Security (DHS) provides a multitude of resources and services including cyber hygiene scanning, risk and vulnerability assessments, and security training.  DHS also provides communication and collaboration through information sharing, alerts, in-person support from cybersecurity and physical security advisors, and incident response services.
-The S.C. Department of Administration, Division of Technology houses and secures the states voter registration system. The Division of Technology manages, monitors, and performs vulnerability scans for the statewide voter registration system and agency networks.
-We have also partnered with a private cybersecurity firm to provide risk and vulnerability assessment, management and remediation, as well as advice on strengthening our security posture.
-In addition, the State Law Enforcement Division (SLED), the Federal Bureau of Investigation (FBI), and the Election Infrastructure Information Sharing and Analysis Center (EI-ISAC) provide information sharing and incident prevention and response support.
-Our Approach
-We are taking numerous actions that include installing and reconfiguring equipment and software, revising policies and procedures, and improving and expanding training and awareness initiatives.  These actions are designed to ensure a strong and resilient election infrastructure that will continue to serve citizens in the face of any adversity.
 
-Network Based Security  Networks are protected against threats using various tools and concepts including firewalls, intrusion prevention and detection systems, network sensors, 24/7 monitoring, data encryption, incident reporting mechanisms, software application patch management, two-factor user authentication, user password strength requirements, and user password expiration.
-Risk and Vulnerability Assessments  Cyber and physical security assessments and penetration tests are performed to identify any vulnerabilities.  All vulnerabilities, regardless of severity, are addressed immediately.
-Training and Education  We work to establish a strong security culture by training election officials to follow security policies and procedures and to recognize cyber threats and attack methods including identifying phishing emails and other social engineering attacks.  Users are required to complete cyber security training before being granted access to systems and on an ongoing basis to maintain access.  The SEC conducts field audits to ensure election officials are following security policies and procedures.
-Voting System Security  Before being used in a South Carolina election, the voting system was tested and certified by a testing laboratory approved by the U.S. Election Assistance Commission (EAC) and was tested by the SEC to ensure the system met the requirements of state law.  Logic and accuracy tests are performed before every election to ensure the system is tallying votes correctly.  Ballot-marking devices, scanners and computers used to tabulate results are never connected to the internet.  Voting system security plans and procedures are in place to insulate the system from unauthorized access including secure storage, access logs, data encryption, and data transfer through secure endpoints. Election results are tallied and reported publicly at the precinct-level, then at the county and state levels providing multiple checkpoints in the process.  Post-election audits are conducted prior to certification of an election.
 
-Securing Future Elections
-Security is a never-ending process. We remain vigilant as the election environment changes and new threats emerge. We must rise to meet those threats by establishing new layers of security to further build the resilience of our states election infrastructure.
-Considering the significant efforts being made to secure our elections, we want you to go to the polls and vote with confidence knowing your vote matters, and your vote will count. Our democracy depends on it."
-Is the voting machine connected to the Internet while I am voting?,"No. The voting unit is never connected to the Internet. Additionally, the voting units are not connected to each other. Each is a standalone, self-contained unit."
-How can I volunteer to be a poll manager?,Click here to learn about serving as a poll manager and to apply online.
-How do I submit a change of address or register for my voting area?,Please see the section of our website titled How To Register.
-Ive moved and havent updated my voter registration card. Can I still vote?,"If you moved to
-1.  another residence within your precinct, you can vote at your polling place but must first fill out a change of address form.
-2.  a different precinct within your county, you are eligible to vote a failsafe ballot (see below).
-3.  another county within 30 days of the election, you are eligible to vote a failsafe ballot (see below).
-4.  another county prior to 30 days before the election, you had to register by the deadline and are not eligible to vote.
+moved to another residence within your precinct, you can update your address at your polling place and vote a regular ballot.
+moved to a different precinct within your county, you are eligible vote Failsafe (see below).
+moved to another residence in another county within 30 days of the election, you are eligible to vote Failsafe (see below).
+moved to another residence in another county prior to the October 9 registration deadline, you are not eligible to vote. State law requires you to be registered prior to the deadline to be eligible to vote.
+moved to South Carolina after the October 9 registration deadline, you are not eligible to vote. State law requires you to be registered prior to the deadline to be eligible to vote.
+
+
+
 Two Options for Voting Failsafe:
 
-Vote at the polling place in your previous precinct using a limited, failsafe ballot including only federal, statewide and countywide offices.
-Go to the voter registration office in the county in which you currently reside, update your address, and vote a full ballot there."
-"I have moved to South Carolina after the 30 day voter registration deadline, can I still vote?","Federal legislation 1965 Voting Rights Act, as amended, section 42 USCA 1973aa-1 permits a voter who moves to a new state within 30 days prior to the Presidential election (and who may therefore fail to qualify for voter registration in their new state) to vote for President and Vice President only in their state of former residence. In South Carolina, this means a registered voter of another state who has moved to SC after the registration deadline may vote in their former state for President and Vice President only. That voter should contact their former voting office to request a ballot. If a registered voter of a South Carolina county moves to another state within 30 days (or after that states registration cut-off), this voter may contact their former county office and request an absentee ballot for President and Vice-President only. The voter would go through the normal absentee voting procedures, either by mail or in person. The former county is responsible for furnishing this voter a ballot for President/Vice President. A voter who has moved to another state within this deadline also has the option of returning to their former precinct and voting in person at the polls for President and Vice President only. This will probably require the voter to cast a provisional ballot."
-Confirmation Card Mailings,"Confirmation Card Mailings are conducted every two years in accordance with the National Voter Registration Act of 1993 and are necessary for maintaining accurate voter registration lists.  Confirmation card mailings normally result in a decrease in total voter registration statewide.  In a confirmation card mailing, a postage-paid return postcard is sent to every voter who has not voted or updated their address during the past two general election cycles (approximately four years).  If the card is not returned, or is returned by the U.S. Postal Service as undeliverable, the voter is made inactive.  Even though these voters are made inactive and reduce the number of active registrations seen in statistical reports, these voters continue to be listed on voter registration lists at polling places for another two general election cycles (approximately four years) before dropping off of those lists.  If voters vote during that time, their records are reactivated.
-It is also important to understand that a voters name not being on the voter registration list at the polling place does not necessarily mean the person cannot vote. Whether any individual person is qualified to vote in any election is determined by the facts of their circumstance not by whether their name is on the list. Procedures are in place at polling places for poll managers and county election officials to determine whether a voter whose name is not on the list should be allowed to vote or not.
-While these protections are vital to ensuring every South Carolinians right to vote, some of them can be confusing and cause delays on election day. Each individual voter can do their part to ensure their opportunity to vote by taking responsibility for their own voter registration. You should check your registration at scVOTES.gov on a regular basis, and if you move or change your name, you should update your registration immediately and at least 30 days prior to any upcoming elections."
-What do I take with me to the polls to vote?,"When voting in person, you will be asked to show one of the following Photo IDs:
+Vote at the polling place in your previous precinct using a failsafe provisional ballot. A failsafe provisional ballot contains only federal, statewide, countywide, and municipality-wide offices.
+Go to the voter registration office in the county in which you currently reside, change your address, and vote a regular ballot there."
+"What offices, candidates and questions are on my ballot?","The offices, candidates and questions on a particular ballot will vary depending on the county and districts in which you reside.
+To see what will appear on your ballot, check your sample ballot at scVOTES.gov.
+(https://vrems.scvotes.sc.gov/Voter/Login?PageMode=Sampleballot)
+"
+How and where can I vote early in person?,"Visit an early voting center in your county during the early voting period and vote in person like you would at your polling place on election day. Remember to bring your Photo ID when checking in to vote.
+(https://scvotes.gov/voters/early-voting/)
 
-A valid SC Drivers License
+(https://scvotes.gov/voters/photo-id-requirements/)
+"
+Who can vote absentee?,"State law allows voters with qualifying reasons to vote absentee by mail:
+
+Persons with employment obligations which prevent them from voting during early voting hours for the duration of the early voting period, and during the hours the polls are open on election day.
+Persons attending a sick or physically disabled person which prevents them from voting during early voting hours for the duration of the early voting period, and during the hours the polls are open on election day.
+Persons confined to a jail or pretrial facility pending disposition of arrest or trial which prevents them from voting during early voting hours for the duration of the early voting period, and during the hours the polls are open on election day.
+Persons who will be absent from their county of residence during early voting hours for the duration of the early voting period, and during the hours the polls are open on election day.
+Persons with physical disabilities.
+Persons sixty-five years of age or older.
+Members of the Armed Forces and Merchant Marines of the United States, their spouses, and dependents residing with them (Learn more about procedures related to Military and Overseas Citizens).
+Persons admitted to a hospital as an emergency patient on the day of the election or within a four-day period before the election (see additional details below).
+(https://scvotes.gov/voters/military-overseas-citizens/)
+"
+How can I vote absentee?,"Step 1:  Get your application
+
+Call, visit or send your request for an absentee application by U.S. mail to your county voter registration office.
+You must provide your name, date of birth and last four digits of your Social Security Number.
+You will be sent an application.
+Visit the absentee voting page on scVOTES to see on how Immediate Family Members and Authorized Representatives can request a voters application.
+
+Step 2:  Complete, sign and return the application
+
+Return the application by U.S. mail or personal delivery to your county voter registration office as soon as possible.
+The deadline to return your application for the 2022 General Election is 5:00 p.m., October 28 (11 days prior to election day).
+Visit the absentee voting page on scVOTES to find more information on how Immediate Family Members and Authorized Representatives can return a voters application.
+
+Step 3:  Receive your absentee ballot in the mail
+
+Voters who have applied early will be mailed their absentee ballot approximately 30 days before the election.
+
+Step 4:  Vote and return the ballot 
+
+Return your ballot to your county voter registration office or an early voting center either by mail or personal delivery.
+Must present Photo ID when returning the ballot return envelope.
+Acceptable Photo IDs:
+
+Drivers license issued by a state within the United States.
+Another form of identification containing a photograph issued by the Department of Motor Vehicles or its equivalent by a state within the United States.
+Passport.
+Military identification containing a photograph issued by the federal government.
+South Carolina voter registration card containing a photograph of the voter.
+
+
+Place the ballot in the ballot here-in envelope and place the ballot here-in envelope in the return envelope.
+Be sure to sign the voters oath and have your signature witnessed.  Anyone age 18 or older can witness your signature.  A notary is not necessary.
+Ballots must be received by the county voter registration office by 7:00 p.m. on election day.
+Ballots returned by mail should be mailed no later than one week prior to election day to help ensure timely delivery.
+Visit the absentee voting page on scVOTES to find more information on how Immediate Family Members and Authorized Representatives can return a voters ballot.
+(https://scvotes.gov/contact/county-voter-registration-election-offices/)
+
+(https://scvotes.gov/voters/absentee-voting/)
+
+(https://scvotes.gov/contact/county-voter-registration-election-offices/)
+
+(https://scvotes.gov/voters/absentee-voting/)
+
+(https://scvotes.gov/contact/county-voter-registration-election-offices/)
+
+(https://scvotes.gov/voters/photo-id-requirements/)
+
+(https://scvotes.gov/contact/county-voter-registration-election-offices/)
+
+(https://scvotes.gov/voters/absentee-voting/)
+"
+It's almost Election Day and I still have my absentee ballot. What should I do?,"You can vote your absentee ballot and return it to your county elections office by mail or personal delivery by 7:00 p.m. on election day (or an early voting center during the early voting period).
+
+Ballots returned by mail should be mailed no later than one week prior to election day to help ensure timely delivery.
+Visit the absentee voting page on scVOTES to see Photo ID requirements for returning a ballot in person and to learn how Immediate Family Members and Authorized Representatives can return a voters ballot.
+
+
+You may also vote a provisional ballot that will count as long as your absentee ballot is not returned before the polls close on election day.
+(https://scvotes.gov/voters/absentee-voting/)
+"
+I'm not voting early. Where do I vote on Election Day?,"At the polling place in your precinct.
+Visit scVOTES.gov and select Find My Polling Place under MySCVotes or check with your county voter registration office.
+Your precinct and polling place are also listed on your voter registration card, however, it is possible your polling place may have changed since the card was issued. Always check your polling place at scVOTES.gov before leaving to vote.
+(https://scvotes.gov/)
+
+(https://vrems.scvotes.sc.gov/Voter/Login?PageMode=PollingPlace)
+
+(https://vrems.scvotes.sc.gov/Voter/Login)
+
+(https://scvotes.gov/)
+"
+What hours are polling places open on Election Day?,"Polling places will be open 7:00 a.m. to 7:00 p.m.  As long as you are in line by 7:00 p.m., you will be allowed to vote."
+What do I take with me to vote?,"Your Photo ID.
+When voting in person, you will be asked to show one of the following Photo IDs:
+
+SC Drivers License
 SC Department of Motor Vehicles ID Card
 
 includes SC Concealed Weapons Permit
@@ -56,32 +122,59 @@ US Passport
 Federal Military ID
 
 includes all Department of Defense Photo IDs and the Department of Veterans Affairs Benefits Card"
-What if I dont have one of these Photo IDs?,"If you do not have one of these Photo IDs, you can make your voting experience as fast and easy as possible by getting one before Election Day.  If you are already registered to vote, you can go to your county elections office to get a SC Voter Registration Card with Photo.  You will need to provide your date of birth and the last four digits of your Social Security Number.  You can do this even on Election Day.  Free DMV ID Cards are also available from the Department of Motor Vehicles.
-If you cannot get a photo ID, bring your non-photo voter registration card with you to the polling place.  You may vote a provisional ballot after signing an affidavit stating you have a reasonable impediment to obtaining a photo ID.  A reasonable impediment is any valid reason, beyond your control, which created an obstacle to obtaining a photo ID.  Some examples include:  a disability or illness, a conflict with your work schedule, a lack of transportation, a lack of a birth certificate, family responsibilities, a religious objection to being photographed, and any other obstacle you find reasonable.  This ballot will count unless someone proves to the county board of voter registration and elections that you are lying about your identity or having the listed impediment.  To vote under the reasonable impediment exception:
+What if I dont have one of these Photo IDs?,"Make your voting experience as fast and easy as possible by getting a free Photo ID before voting.
+If you are already registered to vote, you can go to your county elections office to get a SC Voter Registration Card with Photo.  You will need to provide your date of birth and the last four digits of your Social Security Number.  You can do this even on Election Day.  Free DMV ID Cards are also available from the Department of Motor Vehicles.
+If you cannot get a Photo ID, bring your non-photo voter registration card with you when leaving to vote.
+You may vote a provisional ballot after signing an affidavit stating you have a reasonable impediment to obtaining a Photo ID.  A reasonable impediment is any valid reason, beyond your control, which created an obstacle to obtaining a Photo ID.  Some examples include:  a disability or illness, a conflict with your work schedule, a lack of transportation, a lack of a birth certificate, family responsibilities, a religious objection to being photographed, and any other obstacle you find reasonable.
+This ballot will count unless someone proves to the county board of voter registration and elections that you are lying about your identity or having the listed impediment."
+What happens if I have a Photo ID but don't bring it when voting in person?,"If you dont have your Photo ID with you when voting in person, you may vote a provisional ballot that will count only if you show your Photo ID to your county voter registration office prior to certification of the election (usually Thursday or Friday)."
+Ive lost my non-photo voter registration card.  Can I still vote?,Yes.  Your voter registration card is your notification that you have registered to vote and shows your precinct and polling place.  Your non-photo voter registration card is not necessary to vote unless you are voting under the reasonable impediment exception.  See answer to previous Question What if I dont have one of these Photo IDs? for details.
+How does straight party voting work?,"Whether to vote Straight Party is the first choice a voter must make on a General Election ballot.  Voting straight party is optional.  Each political party that has nominated a candidate appearing on the voters ballot is represented in the straight party selection area.  If a party is selected under straight party, every candidate of that party is automatically selected.
+Voters have the option of overriding the straight party vote for any one office by voting for a candidate other than the partys nominee (also known as crossover voting).  While the crossover vote will override the straight party selection for that particular office, the straight party selection will continue to apply to all other offices for which no selection was made.
+Voters should be aware that a straight party selection does not apply to nonpartisan offices and questions.  These contests must be voted individually.
+As always, voters should carefully review their choices on the review screen before casting their ballot."
+How is the ballot order determined for candidates and political parties?,"Candidates for partisan offices appear on the ballot in party order.  Party order rotates every two years at the time of the general election.
 
-Inform the poll managers that you do not have a photo ID and could not get one.
-Present your current, non-photo registration card.
-Sign the affidavit provided by the poll managers stating why you could not obtain a photo ID.
-Cast a provisional ballot that will be counted unless the county board of voter registration and elections has reason to believe your affidavit is false."
-Does my Drivers License/DMV ID Card have to be a REAL ID?,No.  You can vote with either a regular Drivers License/DMV ID Card or a REAL ID.
-What happens if I have a Photo ID but forget to bring it to my polling place?,"If you forget to bring your photo ID to your polling place, you may vote a provisional ballot that will count only if you show your photo ID to your county elections office prior to certification of the election (on Friday after the General Election)."
-Ive lost my Photo ID. Can I still vote?,Yes. See the answer to the previous question What if I dont have one of these Photo IDs? for details.
-Ive lost my non-photo voter registration card. Can I still vote?,Yes. Your voter registration card is your notification that you have registered to vote and shows your precinct and polling place.  Your non-photo voter registration card is not necessary to vote unless you are voting under the reasonable impediment exception.  See answer to previous Question What if I dont have one of these Photo IDs? for details.
-How do I apply for an absentee ballot?,Visit the absentee voting page for information on applying for an absentee ballot.
-Where can I find candidate and referendum information?,The best source of candidate and referendum information is your county board of elections/voter registration. Your county should be able to provide you with a sample ballot or other information about county specific ballot information. You can also click here to get a copy of your sample ballot at scVOTES.gov.
-Where can I find a sample ballot?,Click here to download your personalized sample ballot.
-How are election results posted for poll watchers?,"A small printer, much like the one used in adding machines, is attached to the voting unit. It is in a locked compartment during voting hours. After the polls close, a poll manager prints the vote totals for each candidate in each contest. After the poll manager signs the printed report, the report is posted on the wall, as has been done in the past."
-What are official results?,"After the election, a canvass is conducted to review accumulated votes. Results from individual voting units are uploaded into a new election configuration and compared with the election night totals. Only after the six member Board of Canvassers review and verify these results are they considered official."
-When is a recount necessary?,"When the difference between any winning candidate and any other non-winning candidate is 1% or less of the total votes cast for all candidates for that office, a recount is mandatory."
-"When I left the polls, I was asked to participate in an ""exit poll."" Is this legal?","Exit polls are legal and participation is voluntary.  They are NOT conducted by the State Election Commission or county election offices.  Exit polls may not be conducted inside the polling place, and voters should not be approached as they enter the polling place.  If you feel threatened or intimidated by a pollster, report it immediately to the poll clerk."
-I saw a candidate/member of candidates campaign at my polling place talking to voters. Can he do that?,"Yes, but there are restrictions:
+Visit our candidates page to see the party order for the 2022 General Election.
+Candidates for nonpartisan offices are ordered alphabetically by last name.
+The write-in space always appears last.
+(https://scvotes.gov/candidates/#party-order-on-ballots.)
+"
+A candidate is listed more than once on my ballot.  Is this correct?,"A candidate may be nominated by more than one political party.  If so, the candidate is listed once for each party by which they are nominated.
+This process is sometimes referred to as fusion voting, and candidates are sometimes referred to as fusion candidates.  All votes for fusion candidates go to the candidate.
+For example, if candidate A receives 100 votes as the nominee for Party 1 and 100 votes as the nominee for Party 2, the candidate receives a total of 200 votes.  While the candidate receives all votes cast for the candidate, regardless of party, this total is not displayed in election results.  Results are reported separately for each nomination.
+Act 150 of 2022 prohibits fusion voting beginning January of 2023.
+(https://www.scstatehouse.gov/sess124_2021-2022/bills/108.htm)
+"
+I saw a candidate/member of candidates campaign at my polling place talking to voters.  Can they do that?,"Yes, but there are restrictions:
 Inside the polling place:  No campaigning is allowed.  Candidates may be inside the polling place and talk to voters as long as they are not campaigning, intimidating voters, or interfering with the election process.
 Within 500 feet of an entrance to a polling place:  Candidates and campaign staff may campaign as long as they are not intimidating voters or interfering with the election process.  However, no campaign literature, signs, or posters are allowed.  Candidates are allowed to wear a badge no larger than 4.25 x 4.25 featuring only the candidates name and office sought.  Candidates must remove their badge upon entering a polling place."
-A candidate is definitely campaigning while in the polling place. What can I do?,"Inform the poll clerk immediately.  If the issue is not resolved, contact the county elections office.  The board will address the complaint."
-Can candidates or their representatives take people to the polls to vote?,"Yes.  It is permissible for any person, even a candidate, to give a voter a ride as long as it is being done solely to help facilitate voting.  However, no one can give a voter anything of value in exchange for voting."
+Are there any laws about candidates posting their signs along the roadway?,"Yes, there are several state laws addressing political signs on roadways, as well as county and municipal ordinances.  See SC Code of Laws Sections 57-25-10, 57-25-140, and 7-25-210.
+Ultimately, it is the responsibility of the entity that maintains the road (state, county, and municipality) to enforce applicable sign laws.
+(https://www.scstatehouse.gov/code/statmast.php)
+"
+"A candidate is definitely campaigning while in the polling place, or there is campaign material within 500 feet of the entrance.  What can I do?",Inform a poll manager immediately so the issue can be resolved. See answer to question below to Where can I report an issue or file a complaint about the election?
+Can candidates or their representatives take people to the polls to vote?,"Yes.  It is permissible for any person, even a candidate, to give a voter a ride as long as it is being done solely to help facilitate voting.  However, no one can offer a voter anything of value in exchange for voting."
 Can I take my child with me to vote?,Yes.  Minor children (under age 18) of a voter may accompany the voter in the voting booth.
-Are ballot selfies legal? Can I take a picture of my ballot and share it with others?,No.  State law prohibits anyone from showing their ballot to another person (S.C. Code of Laws Section 7-25-100).  The use of cameras is not allowed inside the voting booth.
-Can alcoholic beverages be sold on Election Day?,"Yes, the ban on the sale of alcoholic liquors on statewide election days was lifted as of July 1, 2014.  For more information contact the S.C. Department of Revenue, (803) 898-5864."
-Can lottery tickets be sold on Election Day?,Yes.
-Where can I report an issue or file a complaint about the election?,"Any issues or complaints regarding a polling place on Election Day should first be addressed to the poll managers.  Poll managers may be able to quickly resolve the issue.  If not resolved at the polling place, or if the issue or complaint is regarding some other aspect of the election, voters should contact their county elections office."
-"I can't find an answer to my question, are there other resources available?",Contact your county voter registration and elections office for more information.
+Are ballot selfies legal?  Can I take a picture of my ballot and share it with others?,No.  State law prohibits anyone from showing their ballot to another person (S.C. Code of Laws Section 7-25-100).  The use of cameras is not allowed inside the polling place.
+"When I left the polls, I was asked to participate in an ""exit poll."" Is this legal?","Exit polls are legal and participation is voluntary.  They are NOT conducted by the State Election Commission or county election offices.  Exit polls may not be conducted inside the polling place, and voters should not be approached as they enter the polling place.  If you feel threatened or intimidated by a pollster, report it immediately to the poll clerk."
+When and where will results be reported?,"Unofficial results will be reported by the State Election Commission (SEC) on election night at scVOTES.gov.  Results are reported as the SEC receives them from each county elections offices.
+Results are also reported locally at each polling place and at county elections offices.
+(https://scvotes.gov/)
+"
+What are official results?,"Results of the election are certified by election officials after it has been determined that all votes have been counted accurately and completely. Once certified, results are official.
+County boards of voter registration and elections certify results by the Friday following election day."
+When is a recount necessary?,"When the difference between any winning candidate and any other non-winning candidate is 1% or less of the total votes cast for all candidates for that office, a recount is mandatory."
+How can I trust the accuracy of the results?,"Election officials work to ensure a strong and resilient election infrastructure that will continue to serve South Carolinians in the face of any adversity.
+Download our resource for an overview of the processes and procedures implemented to keep elections in South Carolina accurate, secure, accessible, and credible.
+(https://scvotes.gov/wp-content/uploads/2022/09/2022-FALL-Election-Integrity-in-SC.pdf)
+"
+Is the voting system connected to the internet? ,"No, the voting system is never connected to the internet. Computers used to tabulate votes, BMDs, and ballot scanners used in South Carolina are not even capable of being connected to the internet."
+Where can I report an issue or file a complaint about the election?,"Any issues or complaints about an issue at a voting location should first be addressed to a poll manager.  Poll managers may be able to quickly resolve the issue.
+If not resolved at the voting location, or if the issue or complaint is regarding some other aspect of the election, voters should contact their county elections office as soon as possible."
+How can I help? ,"Apply to be a poll manager today. State and county election officials work hard all year to ensure that elections are secure and run smoothly, but we cant do it alone. Poll managers play an important role in conducting fair and impartial elections.
+(https://scvotes.gov/poll-managers/)
+"
+"I can't find an answer to my question, are there other resources available?","Contact your county voter registration and elections office for more information.
+(https://scvotes.gov/contact/county-voter-registration-election-offices/)
+"

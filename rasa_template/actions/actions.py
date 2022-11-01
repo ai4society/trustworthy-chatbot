@@ -6,7 +6,7 @@ import rasa.core.tracker_store
 from rasa.shared.core.trackers import DialogueStateTracker
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
-from rasa_sdk.forms import FormAction
+# from rasa_sdk.forms import FormAction
 from datetime import datetime, timezone, timedelta
 #import panda as pd
 
@@ -28,7 +28,7 @@ class ActionSaveConversation(Action):
          
         count_u = 0
         count_b = 0
-        print(conversation)
+        # print(conversation)
         import os
         if not os.path.isfile('chats.csv'):
             with open('chats.csv','w') as file:

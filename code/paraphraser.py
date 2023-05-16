@@ -30,7 +30,7 @@ def paraphraser(phrases):
   return return_list
 
 
-QA_df = pd.read_csv('data/input/Chat_intent.csv')
+QA_df = pd.read_csv('../data/input/Chat_intent.csv')
 question_list = QA_df['Question'].tolist()
 paraphrased_list = paraphraser(question_list)
 for i in range(len(paraphrased_list)):
@@ -50,5 +50,5 @@ for i in range(len(question_list)):
   dict_paraphrased[question_list[i]] = paraphrased_list[i]
 # save to json file
 object = json.dumps(dict_paraphrased, indent = 4)
-with open('data/input/paraphrased.json', 'w') as f:
+with open('../data/input/paraphrased.json', 'w') as f:
   f.write(object)

@@ -12,11 +12,11 @@ nlu_path = 'Chatbot/data/nlu.yml'
 rules_path = 'Chatbot/data/rules.yml'
 domain_path = 'Chatbot/domain.yml'
 
-intent_data_path = 'data/input/Chat_intent.csv'
+intent_data_path = '../data/input/Chat_intent.csv'
 
 QA_df = pd.read_csv(intent_data_path)
-paraphrased_dict = json.load(open('data/input/paraphrased.json', 'r'))
-DNA_questions = pd.read_csv('data/input/DNA.csv')
+paraphrased_dict = json.load(open('../data/input/paraphrased.json', 'r'))
+DNA_questions = pd.read_csv('../data/input/DNA.csv')
 
 def add_nlu_data(intent, question, paraphrased_list):
     nlu_data = f"""

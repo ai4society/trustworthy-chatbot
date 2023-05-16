@@ -69,7 +69,7 @@ def get_new_intent(text):
         return '_'.join(bigram[0])
         
 
-QA_df = pd.read_csv('data/input/Chat.csv')
+QA_df = pd.read_csv('../data/input/Chat.csv')
 QA_df['Intent'] = QA_df['Question'].apply(extract_intent)
 
 for i in range(len(QA_df)):
@@ -85,5 +85,5 @@ for i in range(len(QA_df)):
 #     QA_df['Intent'][i] = intent
 #     print(intent)
 
-QA_df.to_csv('data/input/Chat_intent.csv', index=False)
+QA_df.to_csv('../data/input/Chat_intent.csv', index=False)
 # print(QA_df)

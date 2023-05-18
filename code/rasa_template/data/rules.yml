@@ -22,3 +22,160 @@ rules:
   - action: utter_out_of_scope
   - action: action_save_conversation
   - action: action_session_id
+
+
+- rule: Answer past_voter_registration_deadline
+  steps:
+  - intent: past_voter_registration_deadline
+  - action: utter_past_voter_registration_deadline
+    
+- rule: Answer office_candidate_question_ballot
+  steps:
+  - intent: office_candidate_question_ballot
+  - action: utter_office_candidate_question_ballot
+    
+- rule: Answer vote_early_person
+  steps:
+  - intent: vote_early_person
+  - action: utter_vote_early_person
+    
+- rule: Answer Who_can_vote_absentee
+  steps:
+  - intent: Who_can_vote_absentee
+  - action: utter_Who_can_vote_absentee
+    
+- rule: Answer How_can_I_vote_absentee
+  steps:
+  - intent: How_can_I_vote_absentee
+  - action: utter_How_can_I_vote_absentee
+    
+- rule: Answer almost_election_day_still
+  steps:
+  - intent: almost_election_day_still
+  - action: utter_almost_election_day_still
+    
+- rule: Answer im_voting_early_vote
+  steps:
+  - intent: im_voting_early_vote
+  - action: utter_im_voting_early_vote
+    
+- rule: Answer hour_polling_place_open
+  steps:
+  - intent: hour_polling_place_open
+  - action: utter_hour_polling_place_open
+    
+- rule: Answer take_vote
+  steps:
+  - intent: take_vote
+  - action: utter_take_vote
+    
+- rule: Answer dont_one_photo_id
+  steps:
+  - intent: dont_one_photo_id
+  - action: utter_dont_one_photo_id
+    
+- rule: Answer happens_photo_id_bring
+  steps:
+  - intent: happens_photo_id_bring
+  - action: utter_happens_photo_id_bring
+    
+- rule: Answer ive_lost_nonphoto_voter
+  steps:
+  - intent: ive_lost_nonphoto_voter
+  - action: utter_ive_lost_nonphoto_voter
+    
+- rule: Answer straight_party_voting_work
+  steps:
+  - intent: straight_party_voting_work
+  - action: utter_straight_party_voting_work
+    
+- rule: Answer ballot_order_determined_candidate
+  steps:
+  - intent: ballot_order_determined_candidate
+  - action: utter_ballot_order_determined_candidate
+    
+- rule: Answer candidate_listed_ballot_correct
+  steps:
+  - intent: candidate_listed_ballot_correct
+  - action: utter_candidate_listed_ballot_correct
+    
+- rule: Answer saw_candidatemember_candidate_campaign
+  steps:
+  - intent: saw_candidatemember_candidate_campaign
+  - action: utter_saw_candidatemember_candidate_campaign
+    
+- rule: Answer law_candidate_posting_sign
+  steps:
+  - intent: law_candidate_posting_sign
+  - action: utter_law_candidate_posting_sign
+    
+- rule: Answer candidate_definitely_campaigning_polling
+  steps:
+  - intent: candidate_definitely_campaigning_polling
+  - action: utter_candidate_definitely_campaigning_polling
+    
+- rule: Answer candidate_representative_take_people
+  steps:
+  - intent: candidate_representative_take_people
+  - action: utter_candidate_representative_take_people
+    
+- rule: Answer take_child_vote
+  steps:
+  - intent: take_child_vote
+  - action: utter_take_child_vote
+    
+- rule: Answer ballot_selfies_legal_take
+  steps:
+  - intent: ballot_selfies_legal_take
+  - action: utter_ballot_selfies_legal_take
+    
+- rule: Answer left_poll_asked_participate
+  steps:
+  - intent: left_poll_asked_participate
+  - action: utter_left_poll_asked_participate
+    
+- rule: Answer result_reported
+  steps:
+  - intent: result_reported
+  - action: utter_result_reported
+    
+- rule: Answer official_result
+  steps:
+  - intent: official_result
+  - action: utter_official_result
+    
+- rule: Answer recount_necessary
+  steps:
+  - intent: recount_necessary
+  - action: utter_recount_necessary
+    
+- rule: Answer trust_accuracy_result
+  steps:
+  - intent: trust_accuracy_result
+  - action: utter_trust_accuracy_result
+    
+- rule: Answer voting_system_connected_internet
+  steps:
+  - intent: voting_system_connected_internet
+  - action: utter_voting_system_connected_internet
+    
+- rule: Answer report_issue_file_complaint
+  steps:
+  - intent: report_issue_file_complaint
+  - action: utter_report_issue_file_complaint
+    
+- rule: Answer How_can_I_help
+  steps:
+  - intent: How_can_I_help
+  - action: utter_How_can_I_help
+    
+- rule: Answer cant_find_answer_question
+  steps:
+  - intent: cant_find_answer_question
+  - action: utter_cant_find_answer_question
+    
+- rule: Answer Do not answer
+  steps:
+  - intent: Do not answer
+  - action: utter_Do not answer
+    

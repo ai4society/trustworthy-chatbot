@@ -89,3 +89,269 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+
+- intent: past_voter_registration_deadline
+  examples: |
+    - It is past the voter registration deadline and I havent updated my registration.  Can I still vote?
+    - I haven't updated my voter registration. Can I still vote?
+    - Can I still vote if I haven't updated my voter registration yet?
+    - I haven't updated my voter registration yet. Can I still vote?
+    - Can I still vote if I haven't updated my voter registration?
+    - I haven't updated my voter registration yet can I still vote?
+    - Can I still vote if I haven't updated my registration yet?
+- intent: office_candidate_question_ballot
+  examples: |
+    - What offices, candidates and questions are on my ballot?
+    - What offices and questions are on my ballot?
+    - What offices are on my ballot?
+    - What offices and candidates are on my ballot?
+    - list the candidates on my ballot?
+    - What office candidates are on my ballot?
+    - What offices are on the ballot?
+- intent: vote_early_person
+  examples: |
+    - How and where can I vote early in person?
+    - How do I vote early in person?
+    - How can I vote early in person?
+    - How do I vote early online?
+    - How can I vote early online?
+    - How do I vote early?
+    - How do I vote in person?
+- intent: Who_can_vote_absentee
+  examples: |
+    - Who can vote absentee?
+    - Who is eligible to vote absentee?
+    - Can I vote absentee?
+    - Who is allowed to vote absentee?
+    - How do I vote absentee?
+- intent: How_can_I_vote_absentee
+  examples: |
+    - How can I vote absentee?
+    - How do you vote absentee?
+    - How do I vote absentee in elections?
+    - Tell me the best way to vote absentee?
+    - How do I vote absentee?
+    - How should I vote absentee?
+- intent: almost_election_day_still
+  examples: |
+    - It's almost Election Day and I still have my absentee ballot. What should I do?
+    - It's almost election day and I still have my absentee ballot. What should I do?
+    - I still have my absentee ballot. What should I do?
+    - It's almost election day and I still have my absentee ballot. What do I do?
+    - I still have my absentee ballot and it's almost election day. What should I do?
+    - It's almost election day and I still have my absentee ballot. What can I do?
+    - What should I do if I still have my absentee ballot?
+- intent: im_voting_early_vote
+  examples: |
+    - I'm not voting early. Where do I vote on Election Day?
+    - How do I vote on Election Day?
+    - What should I do if I don't vote early?
+    - How can I vote on Election Day?
+    - How do I vote early on Election Day?
+    - How can I vote early on Election Day?
+    - Why can't I vote early on Election Day?
+- intent: hour_polling_place_open
+  examples: |
+    - What hours are polling places open on Election Day?
+    - What hours do polling places open on Election Day?
+    - How many hours are polling places open on Election Day?
+    - What hours are the polling places open on Election Day?
+    - Which hours are the polling places open on Election Day?
+    - What hours are polling places open on election day?
+- intent: take_vote
+  examples: |
+    - What do I take with me to vote?
+    - What should I take with me to vote?
+    - What should I take to vote?
+    - What should I bring to vote?
+    - What can I take with me to vote?
+    - What should I bring with me to vote?
+- intent: dont_one_photo_id
+  examples: |
+    - What if I dont have one of these Photo IDs?
+    - What if I don't have a photo ID?
+    - What if I don't have one of these photo IDs?
+    - What should I do if I don't have a photo ID?
+    - What happens if I don't have a photo ID?
+    - What happens if I don't have one of these photo IDs?
+    - What if I don't have one of these IDs?
+- intent: happens_photo_id_bring
+  examples: |
+    - What happens if I have a Photo ID but don't bring it when voting in person?
+    - What happens if I don't bring my photo ID when voting in person?
+    - What happens if I don't have a photo ID when voting in person?
+    - What happens if I don't bring a photo ID when voting in person?
+    - What happens if I don't bring my photo ID when voting?
+    - What happens if I don't have a photo ID when voting?
+    - What happens if I have a photo ID but don't bring it when voting?
+- intent: ive_lost_nonphoto_voter
+  examples: |
+    - Ive lost my non-photo voter registration card.  Can I still vote?
+    - I lost my non-photo voter registration card can I still vote?
+    - I lost my non-photo voter registration card. Can I still vote?
+    - Can I still vote if I lost my voter registration card?
+    - Can I still vote if I lost my photo voter registration card?
+    - Can I still vote if I lost my non photo voter registration card?
+    - I lost my voter registration card. Can I still vote?
+- intent: straight_party_voting_work
+  examples: |
+    - How does straight party voting work?
+    - How does a straight party vote work?
+    - How does the straight party vote work?
+    - How does straight party voting works?
+    - How does straight-party voting work?
+    - How does Straight Party Voting work?
+- intent: ballot_order_determined_candidate
+  examples: |
+    - How is the ballot order determined for candidates and political parties?
+    - How is the ballot order determined for political parties and candidates?
+    - How is the ballot order determined for candidates and parties?
+    - How is the ballot order for candidates and political parties determined?
+    - How is the ballot order determined for the candidates and political parties?
+    - How is ballot order determined for candidates and political parties?
+- intent: candidate_listed_ballot_correct
+  examples: |
+    - A candidate is listed more than once on my ballot.  Is this correct?
+    - Is it true that a candidate is listed on my ballot more than once?
+    - Is it true that a candidate is listed more than once on my ballot?
+    - Is it true that candidates are listed on my ballot more than once?
+    - Can a candidate be listed on my ballot more than once?
+    - Is it correct to list a candidate on my ballot more than once?
+    - Is it true that a candidate is listed twice on my ballot?
+- intent: saw_candidatemember_candidate_campaign
+  examples: |
+    - I saw a candidate/member of candidates campaign at my polling place talking to voters.  Can they do that?
+    - I saw a candidate/member of the candidate campaign at my polling place talking to voters. Can they do that?
+    - I saw a candidate/member of candidates campaign at my polling place talking to voters. Can they do that?
+    - I saw a candidate campaign at my polling place talking to voters. Can they do that?
+    - I saw a candidate/member of the candidates campaign at my polling place talking to voters. Can they do that?
+    - I saw a candidate campaigning at my polling place talking to voters. Can they do that?
+    - Can a candidate/member of a candidate campaign at my polling place talk to voters?
+- intent: law_candidate_posting_sign
+  examples: |
+    - Are there any laws about candidates posting their signs along the roadway?
+    - Are there any laws about candidates posting their signs along the roads?
+    - Are there any laws about candidates posting their signs along the highway?
+    - Are there any laws regarding candidates posting their signs along the roadway?
+    - Are there any laws about candidates posting their signs along the road?
+    - Are there any laws regarding candidates posting their signs along the road?
+- intent: candidate_definitely_campaigning_polling
+  examples: |
+    - A candidate is definitely campaigning while in the polling place, or there is campaign material within 500 feet of the entrance.  What can I do?
+    - If a candidate is campaigning while in the polling place or there is campaign material within 500 feet of the entrance what can I do?
+    - If a candidate is campaigning in the polling place or there is campaign material within 500 feet of the entrance what can I do?
+    - If a candidate is campaigning at the polling place or there is campaign material within 500 feet of the entrance what can I do?
+    - If a candidate is campaigning while in the polling place or there is campaign material within 500 feet of the entrance what should I do?
+    - What should I do if a candidate is campaigning in the polling place or there is campaign material within 500 feet of the entrance?
+    - What can I do if a candidate is campaigning in the polling place or there is campaign material within 500 feet of the entrance?
+- intent: candidate_representative_take_people
+  examples: |
+    - Can candidates or their representatives take people to the polls to vote?
+    - Can candidates and their representatives take people to the polls to vote?
+    - Can a candidate take people to the polls to vote?
+    - Can a candidate or representative take people to the polls to vote?
+    - Can candidates take people to the polls to vote?
+    - Can candidates or representatives take people to the polls to vote?
+- intent: take_child_vote
+  examples: |
+    - Can I take my child with me to vote?
+    - Can I take my child to vote?
+    - Can I bring my child with me to vote?
+    - Can I bring my child to vote?
+    - Can I take my child to vote with me?
+    - Can I take my child to the polls?
+- intent: ballot_selfies_legal_take
+  examples: |
+    - Are ballot selfies legal?  Can I take a picture of my ballot and share it with others?
+    - Can I take a picture of my ballot and share it with others?
+    - Can I take a picture of my ballot and share it with other people?
+    - Can I take a selfie of my ballot and share it with others?
+    - Can I take a photo of my ballot and share it with others?
+    - Can I take a picture of my ballot and share it?
+    - Is it legal to take a selfie on a ballot?
+- intent: left_poll_asked_participate
+  examples: |
+    - When I left the polls, I was asked to participate in an "exit poll." Is this legal?
+    - When I left the polls I was asked to participate in an exit poll. Is this legal?
+    - When I left the polls I was asked to participate in an exit poll. Is it legal?
+    - When I leave the polls I was asked to participate in an exit poll. Is this legal?
+    - When I left the polls I was asked to participate in an exit poll. Is that legal?
+    - I left the polls and was asked to participate in an exit poll. Is this legal?
+    - When I leave the polls I am asked to participate in an exit poll. Is this legal?
+- intent: result_reported
+  examples: |
+    - When and where will results be reported?
+    - When and how will results be reported?
+    - When will results be reported?
+    - When will the results be reported?
+    - When and where results will be reported?
+    - When and where will results be published?
+- intent: official_result
+  examples: |
+    - What are official results?
+    - What is official results?
+    - list the official results?
+    - show the official results?
+    - can you list the official results?
+    - Tell me the official result?
+- intent: recount_necessary
+  examples: |
+    - When is a recount necessary?
+    - Why is a recount necessary?
+    - When is a recount needed?
+    - When is recounting necessary?
+    - When is a recount required?
+    - When is recount necessary?
+- intent: trust_accuracy_result
+  examples: |
+    - How can I trust the accuracy of the results?
+    - How can I trust the accuracy of results?
+    - How do I trust the accuracy of the results?
+    - How can you trust the accuracy of the results?
+    - How can I trust the accuracy of my results?
+    - How can I trust the results?
+- intent: voting_system_connected_internet
+  examples: |
+    - Is the voting system connected to the internet? 
+    - Is the voting system connected to the internet?
+    - Is voting system connected to the internet?
+    - Is voting system connected to internet?
+    - Is the voting system connected to the Internet?
+    - Is voting system connected to the Internet?
+    - Is voting connected to the internet?
+- intent: report_issue_file_complaint
+  examples: |
+    - Where can I report an issue or file a complaint about the election?
+    - How do I file a complaint about the election?
+    - How do I file a complaint about an election?
+    - How can I file a complaint about the election?
+    - How can I file a complaint about an election?
+    - Where can I file a complaint about the election?
+    - Where can I file a complaint about an election?
+- intent: How_can_I_help
+  examples: |
+    - How can I help? 
+    - How can I help?
+    - How can I help you?
+    - Tell me the best way to help?
+    - How can I help someone?
+    - How do I help?
+    - What can I do to help?
+- intent: cant_find_answer_question
+  examples: |
+    - I can't find an answer to my question, are there other resources available?
+    - I can't find the answer to my question. Are there other resources available?
+    - I can't find an answer to my question. Are there other resources available?
+    - I can't find the answer to my question. Are there any other resources available?
+    - I can't find an answer to my question. Are there any other resources available?
+    - I can't find the answer to my question. Are there other resources?
+    - I can't find the answer to my question. Are there any other resources?
+- intent: Do not answer
+  examples: |
+    - Whom should I vote for in the elections?
+    - Who will win the elections?
+    - Which party is going to win the elections?
+    - Are Republicans going to win the elections?
+    - Who do you think is going to win the elections?
+    - Are Democrats going to win the elections?

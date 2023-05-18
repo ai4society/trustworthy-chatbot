@@ -25,16 +25,16 @@
     ],
     "Who can vote absentee?": [
         "Who is eligible to vote absentee?",
+        "Can I vote absentee?",
         "Who is allowed to vote absentee?",
-        "How do I vote absentee?",
-        "Can I vote absentee?"
+        "How do I vote absentee?"
     ],
     "How can I vote absentee?": [
         "How do you vote absentee?",
+        "How do I vote absentee in elections?",
         "Tell me the best way to vote absentee?",
-        "How should I vote absentee?",
         "How do I vote absentee?",
-        "How do I vote absentee in elections?"
+        "How should I vote absentee?"
     ],
     "It's almost Election Day and I still have my absentee ballot. What should I do?": [
         "It's almost election day and I still have my absentee ballot. What should I do?",
@@ -53,18 +53,18 @@
         "Why can't I vote early on Election Day?"
     ],
     "What hours are polling places open on Election Day?": [
+        "What hours do polling places open on Election Day?",
         "How many hours are polling places open on Election Day?",
         "What hours are the polling places open on Election Day?",
         "Which hours are the polling places open on Election Day?",
-        "What hours do polling places open on Election Day?",
         "What hours are polling places open on election day?"
     ],
     "What do I take with me to vote?": [
-        "What should I bring with me to vote?",
         "What should I take with me to vote?",
-        "What should I bring to vote?",
         "What should I take to vote?",
-        "What can I take with me to vote?"
+        "What should I bring to vote?",
+        "What can I take with me to vote?",
+        "What should I bring with me to vote?"
     ],
     "What if I dont have one of these Photo IDs?": [
         "What if I don't have a photo ID?",
@@ -92,17 +92,17 @@
     ],
     "How does straight party voting work?": [
         "How does a straight party vote work?",
-        "How does Straight Party Voting work?",
-        "How does straight party voting works?",
         "How does the straight party vote work?",
-        "How does straight-party voting work?"
+        "How does straight party voting works?",
+        "How does straight-party voting work?",
+        "How does Straight Party Voting work?"
     ],
     "How is the ballot order determined for candidates and political parties?": [
-        "How is ballot order determined for candidates and political parties?",
         "How is the ballot order determined for political parties and candidates?",
-        "How is the ballot order determined for the candidates and political parties?",
         "How is the ballot order determined for candidates and parties?",
-        "How is the ballot order for candidates and political parties determined?"
+        "How is the ballot order for candidates and political parties determined?",
+        "How is the ballot order determined for the candidates and political parties?",
+        "How is ballot order determined for candidates and political parties?"
     ],
     "A candidate is listed more than once on my ballot.  Is this correct?": [
         "Is it true that a candidate is listed on my ballot more than once?",
@@ -122,9 +122,9 @@
     ],
     "Are there any laws about candidates posting their signs along the roadway?": [
         "Are there any laws about candidates posting their signs along the roads?",
-        "Are there any laws about candidates posting their signs along the road?",
         "Are there any laws about candidates posting their signs along the highway?",
         "Are there any laws regarding candidates posting their signs along the roadway?",
+        "Are there any laws about candidates posting their signs along the road?",
         "Are there any laws regarding candidates posting their signs along the road?"
     ],
     "A candidate is definitely campaigning while in the polling place, or there is campaign material within 500 feet of the entrance.  What can I do?": [
@@ -136,18 +136,18 @@
         "What can I do if a candidate is campaigning in the polling place or there is campaign material within 500 feet of the entrance?"
     ],
     "Can candidates or their representatives take people to the polls to vote?": [
-        "Can candidates take people to the polls to vote?",
-        "Can candidates or representatives take people to the polls to vote?",
         "Can candidates and their representatives take people to the polls to vote?",
         "Can a candidate take people to the polls to vote?",
-        "Can a candidate or representative take people to the polls to vote?"
+        "Can a candidate or representative take people to the polls to vote?",
+        "Can candidates take people to the polls to vote?",
+        "Can candidates or representatives take people to the polls to vote?"
     ],
     "Can I take my child with me to vote?": [
-        "Can I take my child to vote with me?",
         "Can I take my child to vote?",
-        "Can I take my child to the polls?",
+        "Can I bring my child with me to vote?",
         "Can I bring my child to vote?",
-        "Can I bring my child with me to vote?"
+        "Can I take my child to vote with me?",
+        "Can I take my child to the polls?"
     ],
     "Are ballot selfies legal?  Can I take a picture of my ballot and share it with others?": [
         "Can I take a picture of my ballot and share it with others?",
@@ -166,32 +166,32 @@
         "When I leave the polls I am asked to participate in an exit poll. Is this legal?"
     ],
     "When and where will results be reported?": [
-        "When will results be reported?",
-        "When and where results will be reported?",
-        "When and where will results be published?",
         "When and how will results be reported?",
-        "When will the results be reported?"
+        "When will results be reported?",
+        "When will the results be reported?",
+        "When and where results will be reported?",
+        "When and where will results be published?"
     ],
     "What are official results?": [
+        "What is official results?",
         "list the official results?",
         "show the official results?",
-        "What is official results?",
         "can you list the official results?",
         "Tell me the official result?"
     ],
     "When is a recount necessary?": [
-        "When is recount necessary?",
-        "When is recounting necessary?",
         "Why is a recount necessary?",
+        "When is a recount needed?",
+        "When is recounting necessary?",
         "When is a recount required?",
-        "When is a recount needed?"
+        "When is recount necessary?"
     ],
     "How can I trust the accuracy of the results?": [
         "How can I trust the accuracy of results?",
-        "How can I trust the results?",
-        "How can you trust the accuracy of the results?",
         "How do I trust the accuracy of the results?",
-        "How can I trust the accuracy of my results?"
+        "How can you trust the accuracy of the results?",
+        "How can I trust the accuracy of my results?",
+        "How can I trust the results?"
     ],
     "Is the voting system connected to the internet? ": [
         "Is the voting system connected to the internet?",

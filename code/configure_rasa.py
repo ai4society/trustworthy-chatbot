@@ -2,21 +2,32 @@ import pandas as pd
 import os
 import shutil
 import json
+from sumy.parsers.plaintext import PlaintextParser
+from sumy.summarizers.luhn import LuhnSummarizer
+from sumy.summarizers.lsa import LsaSummarizer
+from sumy.nlp.tokenizers import Tokenizer
 
-if os.path.exists('Chatbot'):
-    shutil.rmtree('Chatbot', ignore_errors=True, onerror=None)
-
-shutil.copytree('rasa_template', 'Chatbot')
-
-nlu_path = 'Chatbot/data/nlu.yml'
-rules_path = 'Chatbot/data/rules.yml'
-domain_path = 'Chatbot/domain.yml'
+nlu_path = 'rasa_template/data/nlu.yml'
+rules_path = 'rasa_template/data/rules.yml'
+domain_path = 'rasa_template/domain.yml'
 
 intent_data_path = '../data/input/Chat_intent.csv'
 
 QA_df = pd.read_csv(intent_data_path)
 paraphrased_dict = json.load(open('../data/input/paraphrased.json', 'r'))
 DNA_questions = pd.read_csv('../data/input/DNA.csv')
+
+def get_summary(text, length=3):
+    summarizer = LsaSummarizer()  # or LuhnSummarizer()
+    summarizer.stop_words = [' ']  # Set custom stop words if needed
+    parser = PlaintextParser.from_string(text, Tokenizer("english"))
+    summary = summarizer(parser.document, length)
+    summary_text = "\n".join([str(sentence) for sentence in summary])
+    return summary_text
+
+if not os.path.exists('Chatbot'):
+    shutil.copytree('rasa_template', 'Chatbot')
+
 
 def add_nlu_data(intent, question, paraphrased_list):
     nlu_data = f"""
@@ -50,6 +61,10 @@ def add_intents_to_domain(intent):
   - {intent}"""
     return domain_data
 
+QA_df['Summary'] = QA_df['Answer'].apply(get_summary)    
+QA_df.to_csv('../data/input/Chat_summary.csv', index=False)       
+
+
 nlu_list = []
 rules_list = []
 domain_list = []
@@ -57,7 +72,7 @@ intnet_list = []
 for i in range(len(QA_df)):
     nlu_list.append(add_nlu_data(QA_df['Intent'][i], QA_df['Question'][i], paraphrased_dict[QA_df['Question'][i]]))
     rules_list.append(add_rules_data(QA_df['Intent'][i]))   
-    domain_list.append(add_domain_data(QA_df['Intent'][i], QA_df['Answer'][i]))
+    domain_list.append(add_domain_data(QA_df['Intent'][i], QA_df['Summary'][i]))
     intnet_list.append(add_intents_to_domain(QA_df['Intent'][i]))
 
 nlu_list.append(add_nlu_data('Do not answer', DNA_questions['Questions'][0], DNA_questions['Questions'][1:]))
@@ -93,3 +108,4 @@ with open(domain_path, 'w') as f:
     f.write(domain_data)
 
     
+ 

@@ -1,7 +1,7 @@
 # SafeChat Framework
 
 
-1. Install anaconda from [https://www.anaconda.com/download](url)https://www.anaconda.com/download
+1. Install anaconda from https://www.anaconda.com/download
 2. To create a virtual environment, run the command ‘conda create –name <env_name> python==3.7’
 3. To activate the environment, run ‘conda activate <env_name>’
 4. Run ‘git clone https://github.com/ai4society/trustworthy-chatbot.git’ to clone our SafeChat repository.

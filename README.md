@@ -2,7 +2,7 @@
 
 
 1. Install anaconda from https://www.anaconda.com/download
-2. To create a virtual environment, run the command ‘conda create –name <env_name> python==3.7’
+2. To create a virtual environment, run the command ‘conda create –name <env_name> python==3.8’
 3. To activate the environment, run ‘conda activate <env_name>’
 4. Run ‘git clone https://github.com/ai4society/trustworthy-chatbot.git’ to clone our SafeChat repository.
 5. Go to the project directory. Run ‘pip install –r requirements.txt’ to install all the required packages.

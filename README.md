@@ -8,5 +8,5 @@
 5. Go to the project directory. Run ‘pip install –r requirements.txt’ to install all the required packages.
 6. Create a new ‘Chat.csv’ file in the ‘data/input/’ directory with your desired FAQs or use the existing one. Your CSV should have a column called 'Question' and another one called 'Answer'.
 7. Run ‘code/configure_rasa.py’, ’code/extract_intent.py’ and ‘code/paraphraser.py’ files in the same order to create your chatbot.
-8. Go to the generated 'Chatbot' directory and talk to the trained chatbot using the ‘rasa shell’ command.
+8. Go to the generated 'Chatbot/' directory and run 'rasa train' to train the chatbot. To talk to the trained chatbot run the ‘rasa shell’ command. Also, run ‘rasa run actions’ in another instance of the terminal (a custom action was created in 'actions.py' to store the conversation.).
 

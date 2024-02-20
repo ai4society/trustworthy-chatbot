@@ -76,3 +76,19 @@ class ActionSessionId(Action):
         conversation_id=tracker.sender_id
         dispatcher.utter_message("The conversation id is {}".format(conversation_id))
         return []
+
+class ActionEmotion(Action):
+
+    def name(self) -> Text:
+        return "action_emotion"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        
+        text = str(tracker.latest_message["text"])
+        emotion = NRCLex(text)
+        dispatcher.utter_message(text="The affect frequencies are: {}".format(emotion.affect_frequencies))
+        dispatcher.utter_message(text="Top emotions detected are: {}".format(emotion.top_emotions))
+
+        return []

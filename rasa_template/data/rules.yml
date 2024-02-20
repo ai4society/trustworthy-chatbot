@@ -8,6 +8,7 @@ rules:
   - action: utter_goodbye
   - action: action_save_conversation
   - action: action_session_id
+  - action: action_emotion
 
 - rule: Say 'I am a bot' anytime the user challenges
   steps:
@@ -15,6 +16,7 @@ rules:
   - action: utter_iamabot
   - action: action_save_conversation
   - action: action_session_id
+  - action: action_emotion
 
 - rule: Ask the user to rephrase whenever they send a message with low NLU confidence
   steps:
@@ -22,3 +24,4 @@ rules:
   - action: utter_out_of_scope
   - action: action_save_conversation
   - action: action_session_id
+  - action: action_emotion

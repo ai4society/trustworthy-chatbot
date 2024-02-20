@@ -35,6 +35,7 @@ responses:
 actions:
   - action_save_conversation
   - action_session_id
+  - action_emotion
 
 session_config:
   session_expiration_time: 60

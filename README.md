@@ -21,7 +21,7 @@ Before you begin, ensure you have the following installed:
    ```
 2. **Create and activate a conda virtual environment**
    ```bash
-   conda create –name safechat_venv python==3.8’
+   conda create –name safechat_venv python==3.8
    conda activate safechat_venv
    ```
 3. **Install required packages**

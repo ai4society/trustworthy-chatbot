@@ -26,7 +26,7 @@ Before you begin, ensure you have the following installed:
    ```
 3. **Install required packages**
    ```bash
-   pip install –r requirements.txt
+   pip install -r requirements.txt
    ```
 4. **Provide question answer pairs for your use case**
 

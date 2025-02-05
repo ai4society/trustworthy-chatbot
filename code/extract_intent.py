@@ -8,7 +8,20 @@ from nltk.stem.wordnet import WordNetLemmatizer
 import warnings
 import json
 import pandas as pd
+import os
+import argparse
 
+parser = argparse.ArgumentParser(
+    description="""Takes input csv with QA pairs (defaults to CSV), and creates a new column consisting of unique user intents for each query. Saves to Chat_intent.csv"""
+)
+
+# define kwarg for file
+parser.add_argument("-f", "--file", help="Path to the input CSV file")
+
+
+args = parser.parse_args()
+
+csv_file = args.file
 
 nltk.download("punkt")
 nltk.download("stopwords")
@@ -122,10 +135,21 @@ def get_new_intent(text: str):
 
 
 def main():
+    if not csv_file:
+        csv_file = "Chat.csv"
+    elif not csv_file.endswith(".csv"):
+        raise RuntimeError(
+            f"You've supplied file name {csv_file}, which is not a csv file"
+        )
+    csv_file = os.path.join("data", "input", csv_file)
     # read question answer pairs and create intent for each question
-    QA_df = pd.read_csv("data/input/Chat.csv")
+
+    try:
+        QA_df = pd.read_csv(csv_file)
+    except Exception as e:
+        raise RuntimeError(f"There was an error opening file {csv_file}, {e.msg}")
     QA_df["Intent"] = QA_df["Question"].apply(extract_intent)
-    
+
     intents = QA_df["Intent"].to_list()
     assert len(intents) == len(set(intents))
 

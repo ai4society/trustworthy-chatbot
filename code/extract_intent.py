@@ -21,7 +21,6 @@ parser.add_argument("-f", "--file", help="Path to the input CSV file")
 
 args = parser.parse_args()
 
-csv_file = args.file
 
 nltk.download("punkt")
 nltk.download("stopwords")
@@ -135,6 +134,7 @@ def get_new_intent(text: str):
 
 
 def main():
+    csv_file = args.file
     if not csv_file:
         csv_file = "Chat.csv"
     elif not csv_file.endswith(".csv"):

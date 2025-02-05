@@ -64,3 +64,34 @@ Before you begin, ensure you have the following installed:
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
+
+
+---
+
+### **Usage Table**
+Add the following usage table to the README:
+
+## 🛠️ Usage Examples
+
+The following table highlights different use cases for SafeChat:
+
+| **Domain**      | **Description**                                | **Details**                                                                                     |
+|------------------|-----------------------------------------------|-------------------------------------------------------------------------------------------------|
+| Financial Advice | LLMs for fairness and efficacy in decision-making | Study: "LLMs for Financial Advisement: A Fairness and Efficacy Study in Personal Decision Making." |
+
+
+## 📚 Citation
+
+If you use SafeChat in your work, please cite the following publication:
+
+```bibtex
+@article{muppasani2023safe,
+  title={On safe and usable chatbots for promoting voter participation},
+  author={Muppasani, Bharath and Pallagani, Vishal and Lakkaraju, Kausik and Lei, Shuge and Srivastava, Biplav and Robertson, Brett and Hickerson, Andrea and Narayanan, Vignesh},
+  journal={AI Magazine},
+  volume={44},
+  number={3},
+  pages={240--247},
+  year={2023},
+  publisher={Wiley Online Library}
+}

@@ -65,20 +65,15 @@ Before you begin, ensure you have the following installed:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-
----
-
-### **Usage Table**
-Add the following usage table to the README:
-
 ## 🛠️ Usage Examples
 
 The following table highlights different use cases for SafeChat:
 
-| **Domain**      | **Description**                                | **Details**                                                                                     |
-|------------------|-----------------------------------------------|-------------------------------------------------------------------------------------------------|
-| Financial Advice | LLMs for fairness and efficacy in decision-making | Study: "LLMs for Financial Advisement: A Fairness and Efficacy Study in Personal Decision Making." |
-
+| **Domain**           | **Description**                                           | **Details**                                                                                                                                                 |
+| -------------------- | --------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Election Information | Safe chatbot behavior for election messaging              | [Disseminating Authentic Public Messages using Chatbots - A Case Study with ElectionBot-SC](https://ai4society.github.io/publications/papers_local/AAAI_25_SafeChat_Workshop.pdf) |
+| Voter Participation  | Chatbots for promoting voter engagement and participation | [On Safe and Usable Chatbots for Promoting Voter Participation](https://onlinelibrary.wiley.com/doi/full/10.1002/aaai.12109)                                |
+| Financial Advice     | LLMs for fairness and efficacy in decision-making         | [LLMs for Financial Advisement: A Fairness and Efficacy Study in Personal Decision Making](https://dl.acm.org/doi/fullHtml/10.1145/3604237.3626867)         |
 
 ## 📝 Citation
 

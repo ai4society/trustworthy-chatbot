@@ -1,4 +1,4 @@
-# SafeChat Framework
+# SafeChat: An Architecture for Building Trustworthy Collaborative Assistants
 
 SafeChat is an architecture that aims to provide a safe and secure environment for users to interact with AI chatbots in trust-sensitive domains. It uses a combination of neural (learning-based, including generative AI) and symbolic (rule-based) methods, together called a neuro-symbolic approach, to provide known information in easy-to-use consume forms that are adapted from user interactions (provenance). The chatbots generated are scalable, quick to build and is evaluated for trust issues like fairness, robustness and appropriateness of responses.
 
@@ -80,18 +80,23 @@ The following table highlights different use cases for SafeChat:
 | Financial Advice | LLMs for fairness and efficacy in decision-making | Study: "LLMs for Financial Advisement: A Fairness and Efficacy Study in Personal Decision Making." |
 
 
-## 📚 Citation
+## 📝 Citation
 
 If you use SafeChat in your work, please cite the following publication:
 
 ```bibtex
-@article{muppasani2023safe,
-  title={On safe and usable chatbots for promoting voter participation},
-  author={Muppasani, Bharath and Pallagani, Vishal and Lakkaraju, Kausik and Lei, Shuge and Srivastava, Biplav and Robertson, Brett and Hickerson, Andrea and Narayanan, Vignesh},
-  journal={AI Magazine},
-  volume={44},
-  number={3},
-  pages={240--247},
-  year={2023},
-  publisher={Wiley Online Library}
+@inproceedings{safechat-arch-github,
+  title={SafeChat: An Architecture for Building Trustworthy Collaborative Assistants},
+  author={Muppasani, Bharath and Lakkaraju, Kausik and Gupta, Nitin and Nagpal, Vansh and Jones, Sara Rae and Srivastava, Biplav},
+  booktitle={\url{https://github.com/ai4society/trustworthy-chatbot}},
+  year={2024}
 }
+```
+
+## 📚 Publications
+
+- [Disseminating Authentic Public Messages using Chatbots - A Case Study with ElectionBot-SC to Understand and Compare Chatbot Behavior for Safe Election Information in South Carolina](https://ai4society.github.io/publications/papers_local/AAAI_25_SafeChat_Workshop.pdf); Nitin Gupta, Vansh Nagpal, Bharath Muppasani, Kausik Lakkaraju, Sara Jones, Biplav Srivastava; Thirty-Ninth AAAI Conference on Artificial Intelligence (AAAI-25), Philadelphia, USA, Feb 2025
+
+- [On Safe and Usable Chatbots for Promoting Voter Participation](https://onlinelibrary.wiley.com/doi/full/10.1002/aaai.12109); Bharath Muppasani, Vishal Pallagani, Kausik Lakkaraju, Shuge Lei, Biplav Srivastava, Brett Robertson, Andrea Hickerson, Vignesh Narayanan; AAAI AI Magazine 2023
+
+- [LLMs for Financial Advisement: A Fairness and Efficacy Study in Personal Decision Making](https://dl.acm.org/doi/fullHtml/10.1145/3604237.3626867); Kausik Lakkaraju, Sara Rae Jones, Sai Krishna Revanth Vuruma, Vishal Pallagani, Bharath C Muppasani and Biplav Srivastava; 4th ACM International Conference on AI in Finance: ICAIF'23, New York, 2023

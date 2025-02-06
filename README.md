@@ -69,11 +69,32 @@ Before you begin, ensure you have the following installed:
 
 The following table highlights different use cases for SafeChat:
 
-| **Domain**           | **Description**                                           | **Details**                                                                                                                                                 |
-| -------------------- | --------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Election Information | Safe chatbot behavior for election messaging              | [Disseminating Authentic Public Messages using Chatbots - A Case Study with ElectionBot-SC](https://ai4society.github.io/publications/papers_local/AAAI_25_SafeChat_Workshop.pdf) |
-| Voter Participation  | Chatbots for promoting voter engagement and participation | [On Safe and Usable Chatbots for Promoting Voter Participation](https://onlinelibrary.wiley.com/doi/full/10.1002/aaai.12109)                                |
-| Financial Advice     | LLMs for fairness and efficacy in decision-making         | [LLMs for Financial Advisement: A Fairness and Efficacy Study in Personal Decision Making](https://dl.acm.org/doi/fullHtml/10.1145/3604237.3626867)         |
+<table>
+  <tr>
+    <th>Domain</th>
+    <th>Description</th>
+    <th>Details</th>
+  </tr>
+  <tr>
+    <td>Election Information</td>
+    <td>Safe chatbot behavior for promoting voter engagement and participation</td>
+    <td>
+      <ul>
+        <li><a href="https://ai4society.github.io/publications/papers_local/AAAI_25_SafeChat_Workshop.pdf">Disseminating Authentic Public Messages using Chatbots - A Case Study with ElectionBot-SC</a><sup>[1]</sup></li>
+        <li><a href="https://onlinelibrary.wiley.com/doi/full/10.1002/aaai.12109">On Safe and Usable Chatbots for Promoting Voter Participation</a><sup>[2]</sup></li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Financial Advice</td>
+    <td>LLMs for fairness and efficacy in decision-makin</td>
+    <td>
+       <ul>
+         <li><a href="https://dl.acm.org/doi/fullHtml/10.1145/3604237.3626867">LLMs for Financial Advisement: A Fairness and Efficacy Study in Personal Decision Making</a><sup>[3]</sup></li>
+       </ul>
+    </td>
+  </tr>
+</table>
 
 ## 📝 Citation
 
@@ -90,8 +111,8 @@ If you use SafeChat in your work, please cite the following publication:
 
 ## 📚 Publications
 
-- [Disseminating Authentic Public Messages using Chatbots - A Case Study with ElectionBot-SC to Understand and Compare Chatbot Behavior for Safe Election Information in South Carolina](https://ai4society.github.io/publications/papers_local/AAAI_25_SafeChat_Workshop.pdf); Nitin Gupta, Vansh Nagpal, Bharath Muppasani, Kausik Lakkaraju, Sara Jones, Biplav Srivastava; Thirty-Ninth AAAI Conference on Artificial Intelligence (AAAI-25), Philadelphia, USA, Feb 2025
+1. [Disseminating Authentic Public Messages using Chatbots - A Case Study with ElectionBot-SC to Understand and Compare Chatbot Behavior for Safe Election Information in South Carolina](https://ai4society.github.io/publications/papers_local/AAAI_25_SafeChat_Workshop.pdf); Nitin Gupta, Vansh Nagpal, Bharath Muppasani, Kausik Lakkaraju, Sara Jones, Biplav Srivastava; Thirty-Ninth AAAI Conference on Artificial Intelligence (AAAI-25), Philadelphia, USA, Feb 2025
 
-- [On Safe and Usable Chatbots for Promoting Voter Participation](https://onlinelibrary.wiley.com/doi/full/10.1002/aaai.12109); Bharath Muppasani, Vishal Pallagani, Kausik Lakkaraju, Shuge Lei, Biplav Srivastava, Brett Robertson, Andrea Hickerson, Vignesh Narayanan; AAAI AI Magazine 2023
+2. [On Safe and Usable Chatbots for Promoting Voter Participation](https://onlinelibrary.wiley.com/doi/full/10.1002/aaai.12109); Bharath Muppasani, Vishal Pallagani, Kausik Lakkaraju, Shuge Lei, Biplav Srivastava, Brett Robertson, Andrea Hickerson, Vignesh Narayanan; AAAI AI Magazine 2023
 
-- [LLMs for Financial Advisement: A Fairness and Efficacy Study in Personal Decision Making](https://dl.acm.org/doi/fullHtml/10.1145/3604237.3626867); Kausik Lakkaraju, Sara Rae Jones, Sai Krishna Revanth Vuruma, Vishal Pallagani, Bharath C Muppasani and Biplav Srivastava; 4th ACM International Conference on AI in Finance: ICAIF'23, New York, 2023
+3. [LLMs for Financial Advisement: A Fairness and Efficacy Study in Personal Decision Making](https://dl.acm.org/doi/fullHtml/10.1145/3604237.3626867); Kausik Lakkaraju, Sara Rae Jones, Sai Krishna Revanth Vuruma, Vishal Pallagani, Bharath C Muppasani and Biplav Srivastava; 4th ACM International Conference on AI in Finance: ICAIF'23, New York, 2023

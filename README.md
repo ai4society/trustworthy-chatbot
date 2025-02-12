@@ -1,6 +1,6 @@
 # SafeChat: An Architecture for Building Trustworthy Collaborative Assistants
 
-SafeChat is an architecture that aims to provide a safe and secure environment for users to interact with AI chatbots in trust-sensitive domains. It uses a combination of neural (learning-based, including generative AI) and symbolic (rule-based) methods, together called a neuro-symbolic approach, to provide known information in easy-to-use consume forms that are adapted from user interactions (provenance). The chatbots generated are scalable, quick to build and is evaluated for trust issues like fairness, robustness and appropriateness of responses.
+SafeChat is an architecture that aims to provide a safe and secure environment for users to interact with AI chatbots in trust-sensitive domains. It uses a combination of neural (learning-based, including generative AI) and symbolic (rule-based) methods, together called a neuro-symbolic approach, to provide known information in easy-to-use consume forms that are adapted from user interactions (provenance). The chatbots generated are scalable, quick to build and have in-built support for evaluation of trust issues like fairness, robustness and appropriateness of responses.
 
 ## 🎯 Key Features
 - Scalable architecture

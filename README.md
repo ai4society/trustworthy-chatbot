@@ -115,7 +115,7 @@ If you use SafeChat in your work, please cite the following publication:
 
 ## 📚 Publications
 
-1. [Disseminating Authentic Public Messages using Chatbots - A Case Study with ElectionBot-SC to Understand and Compare Chatbot Behavior for Safe Election Information in South Carolina](https://ai4society.github.io/publications/papers_local/AAAI_25_SafeChat_Workshop.pdf); Nitin Gupta, Vansh Nagpal, Bharath Muppasani, Kausik Lakkaraju, Sara Jones, Biplav Srivastava; Thirty-Ninth AAAI Conference on Artificial Intelligence (AAAI-25), Philadelphia, USA, Feb 2025
+1. [Disseminating Authentic Public Messages using Chatbots - A Case Study with ElectionBot-SC to Understand and Compare Chatbot Behavior for Safe Election Information in South Carolina](https://ai4society.github.io/publications/papers_local/AAAI_25_SafeChat_Workshop.pdf); Nitin Gupta, Vansh Nagpal, Bharath Muppasani, Kausik Lakkaraju, Sara Jones, Biplav Srivastava; Workshop on AI for Public Missions (AIPM) at Thirty-Ninth AAAI Conference on Artificial Intelligence (AAAI-25), Philadelphia, USA, Feb 2025
 
 2. [On Safe and Usable Chatbots for Promoting Voter Participation](https://onlinelibrary.wiley.com/doi/full/10.1002/aaai.12109); Bharath Muppasani, Vishal Pallagani, Kausik Lakkaraju, Shuge Lei, Biplav Srivastava, Brett Robertson, Andrea Hickerson, Vignesh Narayanan; AAAI AI Magazine 2023
 

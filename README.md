@@ -10,8 +10,8 @@ SafeChat is an architecture that aims to provide a safe and secure environment f
    >- Supports automated **trust ratings** to  communicate the chatbot’s expected behavior on dimensions like abusive language and bias.
    >- Supports **automatic, extractive summarization** of long answers that can be traced back to source
 - For **fast, scalable, development**
-   >- Data agnostic, scalable architecture**
-   >- Provides a **CSV-driven chatbot building workflow** that does not require deep AI expertise, making it accessible to developers with varying levels of AI knowledge and experience. The backend can be extended with CSV-driven web integration.
+   >- Provides a **CSV-driven chatbot building workflow** that does not require deep AI expertise, making it accessible to developers with varying levels of AI knowledge and experience.
+   >- **Domain agnostic**, scalable architecture. The backend can be extended with CSV-driven web integration.
    >- **Support for testing**, including control and treatment group formation and analysis of results, for randomized control trial (RCT)
 
 ## 📋 Prerequisites

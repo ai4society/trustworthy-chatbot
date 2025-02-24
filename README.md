@@ -109,7 +109,7 @@ If you use SafeChat in your work, please cite the following publication:
 
 ```bibtex
 @inproceedings{safechat-arch-github,
-  title={SafeChat: An Architecture for Building Trustworthy Collaborative Assistants},
+  title={SafeChat: A Framework for Building Trustworthy Collaborative Assistants (Github)},
   author={Muppasani, Bharath and Lakkaraju, Kausik and Gupta, Nitin and Nagpal, Vansh and Jones, Sara Rae and Srivastava, Biplav},
   booktitle={\url{https://github.com/ai4society/trustworthy-chatbot}},
   year={2024}

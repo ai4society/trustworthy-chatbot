@@ -84,7 +84,7 @@ The following table highlights different use cases for SafeChat:
   </tr>
   <tr>
     <td>Election Information</td>
-    <td>Safe chatbot behavior for promoting voter engagement and participation</td>
+    <td>Safe chatbot behavior for promoting voter engagement and participation. See US-specific instances <a href="https://github.com/ai4society/trustworthy-chatbot/blob/master/doc/ElectionBot-Instances.md">here</a>. </td>
     <td>
       <ul>
         <li><a href="https://ai4society.github.io/publications/papers_local/AAAI_25_SafeChat_Workshop.pdf">Disseminating Authentic Public Messages using Chatbots - A Case Study with ElectionBot-SC</a><sup>[1]</sup></li>

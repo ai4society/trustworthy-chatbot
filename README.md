@@ -41,12 +41,34 @@ Before you begin, ensure you have the following installed:
     * Create a new `data/input/DNA.csv` that is a single column list of questions that you would like your chatbot to avoid answering. Ensure that the heading of this column is *Questions*
 5. **Process your data and configure the chatbot using the RASA Open Source framework**
 
-    * Extract the intent for user queries: `python code/extract_intent.py` By default, this will read `data/input/Chat.csv`, however, you can specify a different csv file in the `data/input` directory with the `-f` or `--file` argument:`python code/extract_intent.py -f Election_QA.csv` 
-      * Saves to `data/input/Chat_intent.csv` 
-    * Paraphrase all user queries: `python code/paraphraser.py`
-      * Saves to `data/input/paraphrased.json`
-    * Configure directory for RASA Open Source: `python code/configure_rasa.py`
-      * Saves to `Chatbot` directory. Deletes existing `Chatbot` by default, so save in different location if you would like to save the configuration.
+   - **Extract the intent for user queries**  
+     By default, this will read from `data/input/Chat.csv`. You can specify a different CSV file in the `data/input` directory using the `-f` or `--file` argument.
+
+     ```bash
+     python code/extract_intent.py
+     # Or specify a different input file
+     python code/extract_intent.py -f Election_QA.csv
+     ```
+
+     Output saved to: `data/input/Chat_intent.csv`
+
+   - **Paraphrase all user queries**
+
+     ```bash
+     python code/paraphraser.py
+     ```
+
+     Output saved to: `data/input/paraphrased.json`
+
+   - **Configure directory for RASA Open Source**  
+     This script creates a `Chatbot` directory. It deletes the existing `Chatbot` directory by default, so back it up if needed.
+
+     ```bash
+     python code/configure_rasa.py
+     ```
+
+     Output saved to: `Chatbot/`
+
 6. **Train and converse with your chatbot**
 
     * Navigate to chatbot directory: `cd Chatbot` 

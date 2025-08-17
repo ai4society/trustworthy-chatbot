@@ -83,6 +83,7 @@ Before you begin, ensure you have the following installed:
 ├── code/               # SafeChat logic for generating chatbot files
 ├── data/               # All provided and intermediate data files
 ├── doc/                # Documentation and design assets
+├── tests/              # Collected responses from ChatGPT, Gemini, and SafeChat across multiple domains.
 └── rasa_template/      # Template directory for RASA Open Source
 ```
 

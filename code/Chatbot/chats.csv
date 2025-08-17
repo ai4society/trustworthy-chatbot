@@ -1,0 +1,54 @@
+input_time|conversation_id|count|intent|user_input| entity_name|entity_value|action|bot_reply|
+2022-10-27 16:16:16.404150|7c7d4bba78834d01937df49e85703aef|U0|greet|hi|
+2022-10-27 16:16:16.412114|7c7d4bba78834d01937df49e85703aef|B0|||||utter_greet|Hey! How are you?
+2022-10-27 16:16:16.412640|7c7d4bba78834d01937df49e85703aef|U1|mood_unhappy|whats upp|
+2022-10-27 16:16:16.412640|7c7d4bba78834d01937df49e85703aef|B1|||||utter_cheer_up|Here is something to cheer you up:
+2022-10-27 16:16:16.412640|7c7d4bba78834d01937df49e85703aef|B2|||||utter_did_that_help|Did that help you?
+2022-10-27 16:16:16.412640|7c7d4bba78834d01937df49e85703aef|U2|goodbye|bye|
+2022-10-27 16:16:16.412640|7c7d4bba78834d01937df49e85703aef|B3|||||utter_goodbye|Bye
+2022-10-27 16:22:22.257649|7c7d4bba78834d01937df49e85703aef|U0|greet|hi|
+2022-10-27 16:22:22.257649|7c7d4bba78834d01937df49e85703aef|B0|||||utter_greet|Hey! How are you?
+2022-10-27 16:22:22.257649|7c7d4bba78834d01937df49e85703aef|U1|mood_unhappy|whats upp|
+2022-10-27 16:22:22.257649|7c7d4bba78834d01937df49e85703aef|B1|||||utter_cheer_up|Here is something to cheer you up:
+2022-10-27 16:22:22.257649|7c7d4bba78834d01937df49e85703aef|B2|||||utter_did_that_help|Did that help you?
+2022-10-27 16:22:22.257649|7c7d4bba78834d01937df49e85703aef|U2|goodbye|bye|
+2022-10-27 16:22:22.266678|7c7d4bba78834d01937df49e85703aef|B3|||||utter_goodbye|Bye
+2022-10-27 16:22:22.266678|7c7d4bba78834d01937df49e85703aef|U3|greet|hi|
+2022-10-27 16:22:22.266678|7c7d4bba78834d01937df49e85703aef|B4|||||utter_greet|Hey! How are you?
+2022-10-27 16:22:22.269051|7c7d4bba78834d01937df49e85703aef|U4|bot_challenge|how are youuuu|
+2022-10-27 16:22:22.269051|7c7d4bba78834d01937df49e85703aef|B5|||||utter_iamabot|I am a bot, powered by Rasa.
+2022-10-27 16:22:34.192255|7c7d4bba78834d01937df49e85703aef|U0|greet|hi|
+2022-10-27 16:22:34.192255|7c7d4bba78834d01937df49e85703aef|B0|||||utter_greet|Hey! How are you?
+2022-10-27 16:22:34.192255|7c7d4bba78834d01937df49e85703aef|U1|mood_unhappy|whats upp|
+2022-10-27 16:22:34.192255|7c7d4bba78834d01937df49e85703aef|B1|||||utter_cheer_up|Here is something to cheer you up:
+2022-10-27 16:22:34.192255|7c7d4bba78834d01937df49e85703aef|B2|||||utter_did_that_help|Did that help you?
+2022-10-27 16:22:34.207906|7c7d4bba78834d01937df49e85703aef|U2|goodbye|bye|
+2022-10-27 16:22:34.207906|7c7d4bba78834d01937df49e85703aef|B3|||||utter_goodbye|Bye
+2022-10-27 16:22:34.207906|7c7d4bba78834d01937df49e85703aef|U3|greet|hi|
+2022-10-27 16:22:34.207906|7c7d4bba78834d01937df49e85703aef|B4|||||utter_greet|Hey! How are you?
+2022-10-27 16:22:34.207906|7c7d4bba78834d01937df49e85703aef|U4|bot_challenge|how are youuuu|
+2022-10-27 16:22:34.207906|7c7d4bba78834d01937df49e85703aef|B5|||||utter_iamabot|I am a bot, powered by Rasa.
+2022-10-27 16:22:34.207906|7c7d4bba78834d01937df49e85703aef|U5|goodbye|bye|
+2022-10-27 16:22:34.207906|7c7d4bba78834d01937df49e85703aef|B6|||||utter_goodbye|Bye
+2022-10-27 16:24:54.513998|a3652bcf738c4b72bfec5c9b8578cd23|U0|greet|hello|
+2022-10-27 16:24:54.513998|a3652bcf738c4b72bfec5c9b8578cd23|B0|||||utter_greet|Hey! How are you?
+2022-10-27 16:24:54.513998|a3652bcf738c4b72bfec5c9b8578cd23|U1|bot_challenge|what do you know|
+2022-10-27 16:24:54.513998|a3652bcf738c4b72bfec5c9b8578cd23|B1|||||utter_iamabot|I am a bot, powered by Rasa.
+2022-10-27 16:24:54.519523|a3652bcf738c4b72bfec5c9b8578cd23|U2|goodbye|bye|
+2022-10-27 16:24:54.519523|a3652bcf738c4b72bfec5c9b8578cd23|B2|||||utter_goodbye|Bye
+2022-10-27 16:24:54.519523|a3652bcf738c4b72bfec5c9b8578cd23|U3|greet|hi|
+2022-10-27 16:24:54.519523|a3652bcf738c4b72bfec5c9b8578cd23|B3|||||utter_greet|Hey! How are you?
+2022-10-27 16:24:54.519523|a3652bcf738c4b72bfec5c9b8578cd23|U4|affirm|sorry|
+2022-10-27 16:24:54.519523|a3652bcf738c4b72bfec5c9b8578cd23|B4|||||utter_happy|Great, carry on!
+2022-10-27 16:25:02.297127|a3652bcf738c4b72bfec5c9b8578cd23|U0|greet|hello|
+2022-10-27 16:25:02.297127|a3652bcf738c4b72bfec5c9b8578cd23|B0|||||utter_greet|Hey! How are you?
+2022-10-27 16:25:02.312776|a3652bcf738c4b72bfec5c9b8578cd23|U1|bot_challenge|what do you know|
+2022-10-27 16:25:02.312776|a3652bcf738c4b72bfec5c9b8578cd23|B1|||||utter_iamabot|I am a bot, powered by Rasa.
+2022-10-27 16:25:02.312776|a3652bcf738c4b72bfec5c9b8578cd23|U2|goodbye|bye|
+2022-10-27 16:25:02.312776|a3652bcf738c4b72bfec5c9b8578cd23|B2|||||utter_goodbye|Bye
+2022-10-27 16:25:02.312776|a3652bcf738c4b72bfec5c9b8578cd23|U3|greet|hi|
+2022-10-27 16:25:02.312776|a3652bcf738c4b72bfec5c9b8578cd23|B3|||||utter_greet|Hey! How are you?
+2022-10-27 16:25:02.312776|a3652bcf738c4b72bfec5c9b8578cd23|U4|affirm|sorry|
+2022-10-27 16:25:02.312776|a3652bcf738c4b72bfec5c9b8578cd23|B4|||||utter_happy|Great, carry on!
+2022-10-27 16:25:02.312776|a3652bcf738c4b72bfec5c9b8578cd23|U5|goodbye|bye|
+2022-10-27 16:25:02.312776|a3652bcf738c4b72bfec5c9b8578cd23|B5|||||utter_goodbye|Bye

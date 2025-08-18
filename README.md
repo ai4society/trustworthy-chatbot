@@ -105,6 +105,7 @@ The following table highlights different use cases for SafeChat:
     <th>Description</th>
     <th>Details</th>
   </tr>
+   
   <tr>
     <td>Election Information</td>
     <td>Safe chatbot behavior for promoting voter engagement and participation. See US-specific instances <a href="https://github.com/ai4society/trustworthy-chatbot/blob/master/doc/ElectionBot-Instances.md">here</a>. </td>
@@ -115,15 +116,27 @@ The following table highlights different use cases for SafeChat:
       </ul>
     </td>
   </tr>
+   
   <tr>
     <td>Financial Advice</td>
-    <td>LLMs for fairness and efficacy in decision-makin</td>
+    <td>LLMs for fairness and efficacy in decision making</td>
     <td>
        <ul>
          <li><a href="https://dl.acm.org/doi/fullHtml/10.1145/3604237.3626867">LLMs for Financial Advisement: A Fairness and Efficacy Study in Personal Decision Making</a><sup>[3]</sup></li>
        </ul>
     </td>
   </tr>
+  
+  <tr>
+    <td>Education</td>
+    <td>Multi-modal, explainable, AI-driven chatbot tutoring system</td>
+    <td>
+       <ul>
+         <li><a href="https://arxiv.org/abs/2402.01760">Trust and ethical considerations in a multi-modal, explainable AI-driven chatbot tutoring system: The case of collaboratively solving Rubik’s Cube</a><sup>[4]</sup></li>
+       </ul>
+    </td>
+  </tr> 
+  
 </table>
 
 ## 📝 Citation
@@ -146,3 +159,6 @@ If you use SafeChat in your work, please cite the following publication:
 2. [On Safe and Usable Chatbots for Promoting Voter Participation](https://onlinelibrary.wiley.com/doi/full/10.1002/aaai.12109); Bharath Muppasani, Vishal Pallagani, Kausik Lakkaraju, Shuge Lei, Biplav Srivastava, Brett Robertson, Andrea Hickerson, Vignesh Narayanan; AAAI AI Magazine 2023
 
 3. [LLMs for Financial Advisement: A Fairness and Efficacy Study in Personal Decision Making](https://dl.acm.org/doi/fullHtml/10.1145/3604237.3626867); Kausik Lakkaraju, Sara Rae Jones, Sai Krishna Revanth Vuruma, Vishal Pallagani, Bharath C Muppasani and Biplav Srivastava; 4th ACM International Conference on AI in Finance: ICAIF'23, New York, 2023
+
+4. [Trust and ethical considerations in a multi-modal, explainable AI-driven chatbot tutoring system: The case of collaboratively solving Rubik’s Cube](https://arxiv.org/abs/2402.01760); Kausik Lakkaraju, Vedant Khandelwal, Biplav Srivastava, Forest Agostinelli, Hengtao Tang, Prathamjeet Singh, Dezhi Wu, Matt Irvin, Ashish Kundu; ICML 2023 TEACH Conversational AI Workshop, Hawaii, 2023
+
